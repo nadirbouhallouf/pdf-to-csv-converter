@@ -103,7 +103,3 @@ Les contributions sont les bienvenues !
 4. Push vers la branche (`git push origin feature/AmazingFeature`)
 5. Ouvrez une Pull Request
 
-## 📄 Documentation
-
-- [Guide d'installation détaillé](INSTALLATION_USAGE_GUIDE.md)
-- [Guide de déploiement](DEPLOYMENT_CHECKLIST.md)
