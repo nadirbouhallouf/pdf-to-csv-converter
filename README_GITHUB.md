@@ -26,7 +26,7 @@ docker run -p 8501:8501 pdf-to-csv
 ### Via Python
 ```bash
 # Cloner le dépôt
-git clone https://github.com/[votre-username]/pdf-to-csv-converter.git
+git clone https://github.com/nadirbouhallouf/pdf-to-csv-converter.git
 cd pdf-to-csv-converter
 
 # Installer les dépendances
@@ -74,7 +74,7 @@ pdf_to_csv/
 
 ### Installation pour le développement
 ```bash
-git clone https://github.com/[votre-username]/pdf-to-csv-converter.git
+git clone https://github.com/nadirbouhallouf/pdf-to-csv-converter.git
 cd pdf-to-csv-converter
 python -m venv venv
 source venv/bin/activate  # Windows: venv\Scripts\activate
@@ -110,6 +110,6 @@ Les contributions sont les bienvenues !
 
 ## 🐛 Rapport de bugs
 
-Les bugs et demandes de fonctionnalités peuvent être signalés via [GitHub Issues](https://github.com/[votre-username]/pdf-to-csv-converter/issues).
+Les bugs et demandes de fonctionnalités peuvent être signalés via [GitHub Issues](https://github.com/nadirbouhallouf/pdf-to-csv-converter/issues).
 
 ##

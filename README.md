@@ -27,7 +27,7 @@ docker-compose up
 ### Via Python
 ```bash
 # Cloner le dépôt
-git clone https://github.com/[votre-username]/pdf-to-csv-converter.git
+git clone https://github.com/nadirbouhallouf/pdf-to-csv-converter.git
 cd pdf-to-csv-converter
 
 # Installer les dépendances
@@ -75,7 +75,7 @@ pdf_to_csv/
 
 ### Installation pour le développement
 ```bash
-git clone https://github.com/[votre-username]/pdf-to-csv-converter.git
+git clone https://github.com/nadirbouhallouf/pdf-to-csv-converter.git
 cd pdf-to-csv-converter
 python -m venv venv
 source venv/bin/activate  # Windows: venv\Scripts\activate
