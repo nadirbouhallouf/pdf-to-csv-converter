@@ -2,8 +2,8 @@
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![Streamlit](https://img.shields.io/badge/built%20with-Streamlit-FF4B4B.svg)](https://streamlit.io/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![CI](https://github.com/[username]/pdf-to-csv-converter/workflows/Python%20application/badge.svg)](https://github.com/[username]/pdf-to-csv-converter/actions)
+
+
 
 Convertissez vos relevés bancaires PDF en fichiers CSV structurés avec une interface web intuitive.
 
