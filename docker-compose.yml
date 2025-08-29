@@ -1,0 +1,27 @@
+version: '3.8'
+
+services:
+  pdf-to-csv:
+    build: .
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./uploads:/app/uploads
+    environment:
+      - STREAMLIT_SERVER_PORT=8501
+      - STREAMLIT_SERVER_ADDRESS=0.0.0.0
+    restart: unless-stopped
+
+  # Service de développement avec hot-reload
+  dev:
+    build: .
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./pdf_to_csv:/app/pdf_to_csv
+      - ./uploads:/app/uploads
+    environment:
+      - STREAMLIT_SERVER_PORT=8501
+      - STREAMLIT_SERVER_ADDRESS=0.0.0.0
+      - STREAMLIT_SERVER_FILE_WATCHER_TYPE=auto
+    command: streamlit run pdf_to_csv/main.py --server.port=8501 --server.address=0.0.0.0 --server.runOnSave=true
