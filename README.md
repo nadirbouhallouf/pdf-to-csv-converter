@@ -107,7 +107,3 @@ Les contributions sont les bienvenues !
 
 - [Guide d'installation détaillé](INSTALLATION_USAGE_GUIDE.md)
 - [Guide de déploiement](DEPLOYMENT_CHECKLIST.md)
-
-## 🐛 Rapport de bugs
-
-Les bugs et demandes de fonctionnalités peuvent être signalés via
