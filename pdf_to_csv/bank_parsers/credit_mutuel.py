@@ -1,4 +1,5 @@
 import re
+import pandas as pd
 import pdfplumber
 import pypdf
 from typing import List, Dict
